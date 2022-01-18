@@ -5,8 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hello World!</title>
   </head>
-  <body>
+  <body style="background-color:black;color:white;">
+    <h1>Under Construction</h1>
     Hello world! This is just a placeholder for my projects hosted in their own
     repositories.
+    <footer>
+      Copyright &copy; 2022-<span id="currentYear"></span>, Dylan Dirlam. All rights reserved.
+    </footer>
+    <script type="text/javascript">
+      document.getElementById("currentYear").innerHTML = new Date().getFullYear();
+    </script>
   </body>
 </html>
